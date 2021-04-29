@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/login/style.css">
+    <link rel="stylesheet" href="css/login/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/login/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login/styles.css">
+    <title>Login | Online Assignment Submission System</title>
+</head>
+
+<body>
+	<div class="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<img src="images/adminlogin.png" alt="login" class="img-fluid">
+				</div>
+				<div class="col-md-6 contents">
+					<div class="row justify-content-center">
+						<div class="col-md-8">
+							<a href="mainpage.html"><img src="images/APU.png" alt="APU logo" class="img-fluid"></a>
+							<div class="mb-4">
+								<br>
+								<center><h5>ADMIN</h5></center>
+								<p class="mb-4">Please enter your email and Password to log in.</p>
+							</div>
+							<form method='POST' action='adminlogin.php' >
+								<div class="form-group first">
+									<label for="adminemail">Email</label>
+									<input type="text" class="form-control" id="adminemail" name="adminemail" required />
+								</div>
+								<div class="form-group last mb-4">
+									<label for="password">Password</label>
+									<input type="password" class="form-control" id="password" name="password" required />
+								</div>
+								<input type="submit" value="Log In" class="btn btn-block btn-primary">
+								<br>
+								<div class="mb-4">
+									<p class="mb-4">For security reasons, please log out and exit your web browser when you are done accessing services that require authentication!</p>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div> 
+			</div>
+		</div>
+	</div>
+
+	<script src="js/login/jquery-3.3.1.min.js"></script>
+	<script src="js/login/popper.min.js"></script>
+	<script src="js/login/bootstrap.min.js"></script>
+	<script src="js/login/main.js"></script>
+	
+</body>
+</html>
